@@ -1,0 +1,17 @@
+#making a age calculator:
+#Enter your birth year to calculate your age
+
+
+prompt="Enter your birth year.\n "
+prompt+="Enter '0' to end the programme.\n "
+
+# for calculating the Age of a person and programming in such a way that the programme will ask the person his age until he tells to stop!
+while prompt!='Quit':
+
+
+    birth_year=int(input(prompt))
+    if birth_year != 0:
+        Age=2021-birth_year
+        print(f"you are {Age} years old!")
+    else:
+        break
